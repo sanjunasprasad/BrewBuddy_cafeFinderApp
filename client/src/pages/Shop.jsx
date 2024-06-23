@@ -31,6 +31,9 @@ function Shop() {
 
 
 
+ 
+
+
   //handle navigate to cart
   const handleBuyNow = (event, product) => {
     event.preventDefault();
@@ -100,17 +103,7 @@ function Shop() {
             <div className="col-lg-12">
               <div className="row g-4">
                 <div className="col-xl-3">
-                  {/* <div className="input-group w-100 mx-auto d-flex">
-                    <input
-                      type="search"
-                      className="form-control p-3"
-                      placeholder="Search"
-                      aria-describedby="search-icon-1"
-                    />
-                    <span id="search-icon-1" className="input-group-text p-3">
-                      <i className="fa fa-search"></i>
-                    </span>
-                  </div> */}
+                  
                 </div>
                 <div className="col-6"></div>
                 <div className="col-xl-3">
@@ -132,44 +125,8 @@ function Shop() {
               <div className="row g-4">
                 <div className="col-lg-3">
                   <div className="row g-4">
-                    {/* filter */}
-                    <div className="col-lg-12">
-                      <div className="mb-3">
-                        <h4>Filter By</h4>
-
-                        <div className="mb-2">
-                          <input
-                            type="radio"
-                            className="me-2"
-                            id="Categories-2"
-                            name="Categories-1"
-                            value="Beverages"
-                          />
-                          <label htmlFor="Categories-2"> Coffees</label>
-                        </div>
-                        <div className="mb-2">
-                          <input
-                            type="radio"
-                            className="me-2"
-                            id="Categories-3"
-                            name="Categories-1"
-                            value="Beverages"
-                          />
-                          <label htmlFor="Categories-3"> Pastries</label>
-                        </div>
-                        <div className="mb-2">
-                          <input
-                            type="radio"
-                            className="me-2"
-                            id="Categories-4"
-                            name="Categories-1"
-                            value="Beverages"
-                          />
-                          <label htmlFor="Categories-4"> Drinks</label>
-                        </div>
-                      </div>
-                    </div>
-
+              
+                    <br />
                     {/* banner */}
                     <div className="col-lg-12">
                       <div className="position-relative">
