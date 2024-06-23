@@ -41,6 +41,8 @@ React + Create-reat-app
 
 Tailwind CSS
 
+Formik and Yup: Leveraged for form handling and validation, improving user input control and data integrity.
+
 Sweetalert-(For showing pop-ups , custom messages to the user.)
 
 axiosInstance -Improved, efficienct and reliable in fetching data from APIs
@@ -53,6 +55,7 @@ Component Separation: Enhances reusability and facilitates easier loading by bre
 useContextHook: Simplifies state management by providing a way to share data between components without passing props through every level of the component tree.
 
 Protected Routes: Ensures that only authenticated users can access certain parts of the application, improving security and user experience by preventing unauthorized access to sensitive information or functionality.
+
 ## Installation using git clone
 
 step 1.
