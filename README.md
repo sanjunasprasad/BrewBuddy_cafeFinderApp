@@ -48,7 +48,7 @@ Sweetalert-(For showing pop-ups , custom messages to the user.)
 axiosInstance -Improved, efficienct and reliable in fetching data from APIs
 
 
-##Optimization Techniques Used
+## Optimization Techniques Used
 
 Component Separation: Enhances reusability and facilitates easier loading by breaking down components into smaller, manageable pieces.
 
